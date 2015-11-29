@@ -12,7 +12,7 @@ Source0:	django-profile-%{svnrev}.tgz
 URL:		http://code.google.com/p/django-profile/
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq	python-modules
 Requires:	python-django >= 1.0
 BuildArch:	noarch
